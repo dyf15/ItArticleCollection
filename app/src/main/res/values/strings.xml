@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">共有IT記事</string>
+
+
+    <!--登録画面-->
+    <string name="tx_title">タイトル</string>
+    <string name="tx_url">URL</string>
+    <string name="tx_comment">コメント</string>
+
+    <string name="tx_name">姓名</string>
+    <string name="tx_studentid">学籍番号</string>
+    <string name="tx_seatno">出席番号</string>
+    <string name="tx_created_at">登録日時</string>
+    <!--詳細画面-->
+
+    <!--アクションバー-->
+    <string name="btn_save">保存</string>
+    <string name="btn_add">登録</string>
+
+    <!--非同期通信時-->
+    <string name="msg_send_before">サーバにデータを送信します</string>
+    <string name="msg_send_after">サーバにデータを送信しました</string>
+    <string name="msg_parse_before">サーバからの返信内容の解析を開始します</string>
+    <string name="msg_parse_after">サーバからの返信内容の解析が終了しました</string>
+    <string name="msg_err_send">サーバ通信に失敗しました。もう一度送信をお願いします</string>
+    <string name="msg_err_parse">サーバからの返信内容の解析に失敗しました。もう一度送信をお願いします</string>
+
+
+   <!--ダイアログ表示時-->
+    <string name="dlg_empty">未入力</string>
+    <string name="dlg_title">エラーメッセージ</string>
+    <string name="dlg_msg_title">タイトル：</string>
+    <string name="dlg_msg_url">URL：</string>
+    <string name="dlg_msg_comment">コメント：</string>
+    <string name="dlg_msg_name">名前：</string>
+    <string name="dlg_msg_studentid">学籍番号：</string>
+    <string name="dlg_msg_seatno">出席番号：</string>
+    <string name="dlg_msg_status">処理状況：</string>
+    <string name="dlg_msg_msg">メッセージ：</string>
+    <string name="dlg_msg_timestamp">登録日時：</string>
+
+    <string name="btn_limit">件数指定</string>
+    <string name="btn_clear">クリア</string>
+
+</resources>

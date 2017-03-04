@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+
+            android:id="@+id/limitNum"
+            android:layout_width="380px"
+            android:layout_height="match_parent"
+            android:inputType="number"/>
+
+        <Button
+
+            android:layout_width="180px"
+            android:layout_height="match_parent"
+            android:text="@string/btn_limit"
+            android:onClick="setLimit"/>
+        <Button
+
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:text="@string/btn_clear"
+            android:onClick="setLimitClear"/>
+        </LinearLayout>
+
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="bottom|end"
+        android:onClick="onNewButtonClick"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/white" />
+
+</android.support.design.widget.CoordinatorLayout>
